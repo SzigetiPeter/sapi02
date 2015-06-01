@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="8" failures="0" name="ro.sapientia.mesteri2015.SCRUMTitleTest" time="1.062" errors="0" skipped="0">
+<testsuite tests="30" failures="4" name="ro.sapientia.mesteri2015.SCRUMTitleTest" time="2.672" errors="4" skipped="1">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jre1.8.0_45\bin"/>
@@ -15,31 +15,31 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.os.patch.level" value=""/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="E:\sapi\git\sapi02"/>
-    <property name="java.runtime.version" value="1.8.0_45-b15"/>
+    <property name="user.dir" value="F:\Git\sapi02"/>
+    <property name="java.runtime.version" value="1.8.0_45-b14"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
     <property name="java.endorsed.dirs" value="C:\Program Files\Java\jre1.8.0_45\lib\endorsed"/>
     <property name="os.arch" value="amd64"/>
-    <property name="java.io.tmpdir" value="C:\Users\Tibor\AppData\Local\Temp\"/>
+    <property name="java.io.tmpdir" value="C:\Users\SzigetiP\AppData\Local\Temp\"/>
     <property name="line.separator" value="
 "/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="user.variant" value=""/>
     <property name="os.name" value="Windows 8.1"/>
-    <property name="classworlds.conf" value="E:\sapi\workspace\sapi_4\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf7061606190718518214.tmp"/>
+    <property name="classworlds.conf" value="F:\Mesteri\masodikEv\testing\workspaceSzPFork\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf5865518033510514194.tmp"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="java.library.path" value="C:\Program Files\Java\jre1.8.0_45\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jre1.8.0_45/bin/server;C:/Program Files/Java/jre1.8.0_45/bin;C:/Program Files/Java/jre1.8.0_45/lib/amd64;C:\ProgramData\Oracle\Java\javapath;C:\Python27\;C:\Python27\Scripts;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;C:\Program Files (x86)\MiKTeX 2.9\miktex\bin\;C:\Program Files (x86)\Git\cmd;E:\app\apache-maven-3.2.5\bin;C:\Program Files (x86)\Skype\Phone\;E:\app\z3-4.3.2-x64-win;C:\Program Files (x86)\Mozilla Firefox;E:\sapi\eclipse;;."/>
+    <property name="java.library.path" value="C:\Program Files\Java\jre1.8.0_45\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jre1.8.0_45/bin/server;C:/Program Files/Java/jre1.8.0_45/bin;C:/Program Files/Java/jre1.8.0_45/lib/amd64;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Skype\Phone\;C:\Program Files\MATLAB\MATLAB Production Server\R2015a\runtime\win64;C:\Program Files\MATLAB\MATLAB Production Server\R2015a\bin;C:\Program Files\MATLAB\MATLAB Production Server\R2015a\polyspace\bin;C:\Program Files (x86)\QuickTime\QTSystem\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;F:\Mesteri\masodikEv\testing\apache-maven-3.3.3-bin\apache-maven-3.3.3\bin;F:\Mesteri\masodikEv\testing\eclipse-jee-luna-SR2-win32-x86_64\eclipse;;."/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.class.version" value="52.0"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="os.version" value="6.3"/>
-    <property name="user.home" value="C:\Users\Tibor"/>
-    <property name="user.timezone" value="EET"/>
+    <property name="user.home" value="C:\Users\SzigetiP"/>
+    <property name="user.timezone" value="Europe/Athens"/>
     <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
     <property name="java.specification.version" value="1.8"/>
     <property name="file.encoding" value="Cp1252"/>
-    <property name="user.name" value="Tibor"/>
-    <property name="java.class.path" value="/E:/sapi/eclipse/plugins/org.eclipse.m2e.maven.runtime_1.5.1.20150109-1819/jars/plexus-classworlds-2.5.1.jar"/>
+    <property name="user.name" value="SzigetiP"/>
+    <property name="java.class.path" value="/F:/Mesteri/masodikEv/testing/eclipse-jee-luna-SR2-win32-x86_64/eclipse/plugins/org.eclipse.m2e.maven.runtime_1.5.1.20150109-1819/jars/plexus-classworlds-2.5.1.jar"/>
     <property name="org.slf4j.simpleLogger.defaultLogLevel" value="info"/>
     <property name="java.vm.specification.version" value="1.8"/>
     <property name="sun.arch.data.model" value="64"/>
@@ -53,7 +53,7 @@
     <property name="java.ext.dirs" value="C:\Program Files\Java\jre1.8.0_45\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
     <property name="sun.boot.class.path" value="C:\Program Files\Java\jre1.8.0_45\lib\resources.jar;C:\Program Files\Java\jre1.8.0_45\lib\rt.jar;C:\Program Files\Java\jre1.8.0_45\lib\sunrsasign.jar;C:\Program Files\Java\jre1.8.0_45\lib\jsse.jar;C:\Program Files\Java\jre1.8.0_45\lib\jce.jar;C:\Program Files\Java\jre1.8.0_45\lib\charsets.jar;C:\Program Files\Java\jre1.8.0_45\lib\jfr.jar;C:\Program Files\Java\jre1.8.0_45\classes"/>
     <property name="java.vendor" value="Oracle Corporation"/>
-    <property name="maven.home" value="E:\sapi\git\sapi02\EMBEDDED"/>
+    <property name="maven.home" value="F:\Git\sapi02\EMBEDDED"/>
     <property name="file.separator" value="\"/>
     <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -61,12 +61,224 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
+  <testcase classname="Scenario: Give right dates" name="Given I add a new story" time="0"/>
+  <testcase classname="Scenario: Give right dates" name="When I enter &quot;2015-06-01 07:35&quot; in  the start date datebox and I push the add button" time="0"/>
+  <testcase classname="Scenario: Give right dates" name="Then I should get result entry &quot;2015-06-01 07:35&quot; in new stories list" time="0"/>
+  <testcase classname="Scenario: Give right dates" name="Scenario: Give right dates" time="0.828"/>
+  <testcase classname="Scenario: Delete story" name="Given I select an existing story" time="0"/>
+  <testcase classname="Scenario: Delete story" name="When I press the delete button" time="0"/>
+  <testcase classname="Scenario: Delete story" name="Then I should see the updated story list" time="0.016">
+    <error message="Unable to locate element: {&quot;method&quot;:&quot;id&quot;,&quot;selector&quot;:&quot;story-1&quot;}
+Command duration or timeout: 5.08 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.45.0&apos;, revision: &apos;5017cb8e7ca8e37638dc3091b2440b90a1d8686f&apos;, time: &apos;2015-02-27 09:10:26&apos;
+System info: host: &apos;Szippy-PC&apos;, ip: &apos;192.168.1.102&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_45&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=38.0.1, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 09051e26-36c1-48c1-8436-eed25278f195
+*** Element info: {Using=id, value=story-1}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: Unable to locate element: {&quot;method&quot;:&quot;id&quot;,&quot;selector&quot;:&quot;story-1&quot;}
+Command duration or timeout: 5.08 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.45.0&apos;, revision: &apos;5017cb8e7ca8e37638dc3091b2440b90a1d8686f&apos;, time: &apos;2015-02-27 09:10:26&apos;
+System info: host: &apos;Szippy-PC&apos;, ip: &apos;192.168.1.102&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_45&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=38.0.1, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 09051e26-36c1-48c1-8436-eed25278f195
+*** Element info: {Using=id, value=story-1}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:393)
+	at org.openqa.selenium.By$ById.findElement(By.java:214)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+	at ro.sapientia.mesteri2015.test.SCRUMDeleteCheckerDefinition.I_should_see_the_updated_story_list(SCRUMDeleteCheckerDefinition.java:53)
+	at ✽.Then I should see the updated story list(ro\sapientia\mesteri2015\SCRUMDeleteChecker.feature:7)
+Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: {&quot;method&quot;:&quot;id&quot;,&quot;selector&quot;:&quot;story-1&quot;}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.45.0&apos;, revision: &apos;5017cb8e7ca8e37638dc3091b2440b90a1d8686f&apos;, time: &apos;2015-02-27 09:10:26&apos;
+System info: host: &apos;Szippy-PC&apos;, ip: &apos;192.168.1.102&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_45&apos;
+Driver info: driver.version: unknown
+	at &lt;anonymous class&gt;.FirefoxDriver.prototype.findElementInternal_(file:///C:/Users/SzigetiP/AppData/Local/Temp/anonymous7416988013936859883webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10271)
+	at &lt;anonymous class&gt;.fxdriver.Timer.prototype.setTimeout/&lt;.notify(file:///C:/Users/SzigetiP/AppData/Local/Temp/anonymous7416988013936859883webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:603)
+</error>
+  </testcase>
+  <testcase classname="Scenario: Delete story" name="Scenario: Delete story" time="0.016">
+    <error message="Unable to locate element: {&quot;method&quot;:&quot;id&quot;,&quot;selector&quot;:&quot;story-1&quot;}
+Command duration or timeout: 5.08 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.45.0&apos;, revision: &apos;5017cb8e7ca8e37638dc3091b2440b90a1d8686f&apos;, time: &apos;2015-02-27 09:10:26&apos;
+System info: host: &apos;Szippy-PC&apos;, ip: &apos;192.168.1.102&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_45&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=38.0.1, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 09051e26-36c1-48c1-8436-eed25278f195
+*** Element info: {Using=id, value=story-1}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: Unable to locate element: {&quot;method&quot;:&quot;id&quot;,&quot;selector&quot;:&quot;story-1&quot;}
+Command duration or timeout: 5.08 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.45.0&apos;, revision: &apos;5017cb8e7ca8e37638dc3091b2440b90a1d8686f&apos;, time: &apos;2015-02-27 09:10:26&apos;
+System info: host: &apos;Szippy-PC&apos;, ip: &apos;192.168.1.102&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_45&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=38.0.1, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 09051e26-36c1-48c1-8436-eed25278f195
+*** Element info: {Using=id, value=story-1}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:393)
+	at org.openqa.selenium.By$ById.findElement(By.java:214)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+	at ro.sapientia.mesteri2015.test.SCRUMDeleteCheckerDefinition.I_should_see_the_updated_story_list(SCRUMDeleteCheckerDefinition.java:53)
+	at ✽.Then I should see the updated story list(ro\sapientia\mesteri2015\SCRUMDeleteChecker.feature:7)
+Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: {&quot;method&quot;:&quot;id&quot;,&quot;selector&quot;:&quot;story-1&quot;}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.45.0&apos;, revision: &apos;5017cb8e7ca8e37638dc3091b2440b90a1d8686f&apos;, time: &apos;2015-02-27 09:10:26&apos;
+System info: host: &apos;Szippy-PC&apos;, ip: &apos;192.168.1.102&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_45&apos;
+Driver info: driver.version: unknown
+	at &lt;anonymous class&gt;.FirefoxDriver.prototype.findElementInternal_(file:///C:/Users/SzigetiP/AppData/Local/Temp/anonymous7416988013936859883webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10271)
+	at &lt;anonymous class&gt;.fxdriver.Timer.prototype.setTimeout/&lt;.notify(file:///C:/Users/SzigetiP/AppData/Local/Temp/anonymous7416988013936859883webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:603)
+</error>
+  </testcase>
+  <testcase classname="Scenario: Give empty dates" name="Given I add a new story with empty dates" time="0"/>
+  <testcase classname="Scenario: Give empty dates" name="When I enter nothing &quot;&quot; in the start date datebox first" time="0"/>
+  <testcase classname="Scenario: Give empty dates" name="And enter nothing &quot;&quot; I push the add button" time="0"/>
+  <testcase classname="Scenario: Give empty dates" name="Then I should get sent to edit boxes because no date was defined" time="0"/>
+  <testcase classname="Scenario: Give empty dates" name="Scenario: Give empty dates" time="0.922"/>
   <testcase classname="Scenario: UpdateFirst" name="Given I edit the scrum list&apos;s first story" time="0"/>
-  <testcase classname="Scenario: UpdateFirst" name="When I enter &quot;updatefirstnew&quot; in  the title textbox and I push the update button" time="0"/>
-  <testcase classname="Scenario: UpdateFirst" name="Then I should get result &quot;updatefirstnew&quot; in new stories list" time="0"/>
-  <testcase classname="Scenario: UpdateFirst" name="Scenario: UpdateFirst" time="0.625"/>
+  <testcase classname="Scenario: UpdateFirst" name="When I enter &quot;updatefirstnew&quot; in  the title textbox and I push the update button" time="0">
+    <error message="Unable to locate element: {&quot;method&quot;:&quot;id&quot;,&quot;selector&quot;:&quot;story-1&quot;}
+Command duration or timeout: 5.09 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.45.0&apos;, revision: &apos;5017cb8e7ca8e37638dc3091b2440b90a1d8686f&apos;, time: &apos;2015-02-27 09:10:26&apos;
+System info: host: &apos;Szippy-PC&apos;, ip: &apos;192.168.1.102&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_45&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=38.0.1, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 73b517d9-a670-43bf-8c38-c3051cb17d61
+*** Element info: {Using=id, value=story-1}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: Unable to locate element: {&quot;method&quot;:&quot;id&quot;,&quot;selector&quot;:&quot;story-1&quot;}
+Command duration or timeout: 5.09 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.45.0&apos;, revision: &apos;5017cb8e7ca8e37638dc3091b2440b90a1d8686f&apos;, time: &apos;2015-02-27 09:10:26&apos;
+System info: host: &apos;Szippy-PC&apos;, ip: &apos;192.168.1.102&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_45&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=38.0.1, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 73b517d9-a670-43bf-8c38-c3051cb17d61
+*** Element info: {Using=id, value=story-1}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:393)
+	at org.openqa.selenium.By$ById.findElement(By.java:214)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+	at ro.sapientia.mesteri2015.test.SCRUMSprintUpdateStepDefinition.I_enter_in_the_title_textbox_and_I_push_the_update_button(SCRUMSprintUpdateStepDefinition.java:37)
+	at ✽.When I enter &quot;updatefirstnew&quot; in  the title textbox and I push the update button(ro\sapientia\mesteri2015\SCRUMSprintUpdate.feature:6)
+Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: {&quot;method&quot;:&quot;id&quot;,&quot;selector&quot;:&quot;story-1&quot;}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.45.0&apos;, revision: &apos;5017cb8e7ca8e37638dc3091b2440b90a1d8686f&apos;, time: &apos;2015-02-27 09:10:26&apos;
+System info: host: &apos;Szippy-PC&apos;, ip: &apos;192.168.1.102&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_45&apos;
+Driver info: driver.version: unknown
+	at &lt;anonymous class&gt;.FirefoxDriver.prototype.findElementInternal_(file:///C:/Users/SzigetiP/AppData/Local/Temp/anonymous74788416613247422webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10271)
+	at &lt;anonymous class&gt;.fxdriver.Timer.prototype.setTimeout/&lt;.notify(file:///C:/Users/SzigetiP/AppData/Local/Temp/anonymous74788416613247422webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:603)
+</error>
+  </testcase>
+  <testcase classname="Scenario: UpdateFirst" name="Scenario: UpdateFirst" time="0">
+    <error message="Unable to locate element: {&quot;method&quot;:&quot;id&quot;,&quot;selector&quot;:&quot;story-1&quot;}
+Command duration or timeout: 5.09 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.45.0&apos;, revision: &apos;5017cb8e7ca8e37638dc3091b2440b90a1d8686f&apos;, time: &apos;2015-02-27 09:10:26&apos;
+System info: host: &apos;Szippy-PC&apos;, ip: &apos;192.168.1.102&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_45&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=38.0.1, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 73b517d9-a670-43bf-8c38-c3051cb17d61
+*** Element info: {Using=id, value=story-1}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: Unable to locate element: {&quot;method&quot;:&quot;id&quot;,&quot;selector&quot;:&quot;story-1&quot;}
+Command duration or timeout: 5.09 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.45.0&apos;, revision: &apos;5017cb8e7ca8e37638dc3091b2440b90a1d8686f&apos;, time: &apos;2015-02-27 09:10:26&apos;
+System info: host: &apos;Szippy-PC&apos;, ip: &apos;192.168.1.102&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_45&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=38.0.1, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 73b517d9-a670-43bf-8c38-c3051cb17d61
+*** Element info: {Using=id, value=story-1}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:393)
+	at org.openqa.selenium.By$ById.findElement(By.java:214)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+	at ro.sapientia.mesteri2015.test.SCRUMSprintUpdateStepDefinition.I_enter_in_the_title_textbox_and_I_push_the_update_button(SCRUMSprintUpdateStepDefinition.java:37)
+	at ✽.When I enter &quot;updatefirstnew&quot; in  the title textbox and I push the update button(ro\sapientia\mesteri2015\SCRUMSprintUpdate.feature:6)
+Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: {&quot;method&quot;:&quot;id&quot;,&quot;selector&quot;:&quot;story-1&quot;}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.45.0&apos;, revision: &apos;5017cb8e7ca8e37638dc3091b2440b90a1d8686f&apos;, time: &apos;2015-02-27 09:10:26&apos;
+System info: host: &apos;Szippy-PC&apos;, ip: &apos;192.168.1.102&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_45&apos;
+Driver info: driver.version: unknown
+	at &lt;anonymous class&gt;.FirefoxDriver.prototype.findElementInternal_(file:///C:/Users/SzigetiP/AppData/Local/Temp/anonymous74788416613247422webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10271)
+	at &lt;anonymous class&gt;.fxdriver.Timer.prototype.setTimeout/&lt;.notify(file:///C:/Users/SzigetiP/AppData/Local/Temp/anonymous74788416613247422webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:603)
+</error>
+  </testcase>
+  <testcase classname="Scenario: UpdateFirst" name="Then I should get result &quot;updatefirstnew&quot; in new stories list" time="0">
+    <skipped/>
+  </testcase>
   <testcase classname="Scenario: Title1" name="Given I open the scrum tool add page" time="0"/>
   <testcase classname="Scenario: Title1" name="When I enter &quot;title1&quot; in  the title textbox and I push the add button" time="0"/>
-  <testcase classname="Scenario: Title1" name="Then I should get result &quot;title1&quot; in stories list" time="0"/>
-  <testcase classname="Scenario: Title1" name="Scenario: Title1" time="0.437"/>
+  <testcase classname="Scenario: Title1" name="Then I should get result &quot;title1&quot; in stories list" time="0">
+    <failure message="expected:&lt;[]&gt; but was:&lt;[title1]&gt;" type="org.junit.ComparisonFailure">org.junit.ComparisonFailure: expected:&lt;[]&gt; but was:&lt;[title1]&gt;
+	at org.junit.Assert.assertEquals(Assert.java:115)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at ro.sapientia.mesteri2015.test.SCRUMTitleStepDefinition.I_should_get_result_in_stories_list(SCRUMTitleStepDefinition.java:56)
+	at ✽.Then I should get result &quot;title1&quot; in stories list(ro\sapientia\mesteri2015\SCRUMTitle.feature:7)
+</failure>
+  </testcase>
+  <testcase classname="Scenario: Title1" name="Scenario: Title1" time="0">
+    <failure message="expected:&lt;[]&gt; but was:&lt;[title1]&gt;" type="org.junit.ComparisonFailure">org.junit.ComparisonFailure: expected:&lt;[]&gt; but was:&lt;[title1]&gt;
+	at org.junit.Assert.assertEquals(Assert.java:115)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at ro.sapientia.mesteri2015.test.SCRUMTitleStepDefinition.I_should_get_result_in_stories_list(SCRUMTitleStepDefinition.java:56)
+	at ✽.Then I should get result &quot;title1&quot; in stories list(ro\sapientia\mesteri2015\SCRUMTitle.feature:7)
+</failure>
+  </testcase>
+  <testcase classname="Scenario: Give wrong dates" name="Given I add a new story with wrong dates" time="0"/>
+  <testcase classname="Scenario: Give wrong dates" name="When I enter &quot;2015-50 07:35&quot; in  the start date date box after I push the add button" time="0"/>
+  <testcase classname="Scenario: Give wrong dates" name="Then I should get sent to edit boxes" time="0"/>
+  <testcase classname="Scenario: Give wrong dates" name="Scenario: Give wrong dates" time="0.89"/>
+  <testcase classname="Scenario: Give wrong succession of dates" name="Given I add a new story with wrong dates successions" time="0"/>
+  <testcase classname="Scenario: Give wrong succession of dates" name="When I enter &quot;2015-06-20 07:35&quot; in the start date datebox first" time="0"/>
+  <testcase classname="Scenario: Give wrong succession of dates" name="And enter &quot;2015-06-02 07:35&quot; I push the add button" time="0"/>
+  <testcase classname="Scenario: Give wrong succession of dates" name="Then I should get sent to edit boxes because of wrong date succession" time="0">
+    <failure message="expected:&lt;null&gt; but was:&lt;http://localhost:8080/story/add&gt;" type="java.lang.AssertionError">java.lang.AssertionError: expected:&lt;null&gt; but was:&lt;http://localhost:8080/story/add&gt;
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:743)
+	at org.junit.Assert.assertEquals(Assert.java:118)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at ro.sapientia.mesteri2015.test.SCRUMWrongDatesSuccessionCheckDefinition.I_should_get_sent_to_edit_boxes_because_of_wrong_date_succession(SCRUMWrongDatesSuccessionCheckDefinition.java:72)
+	at ✽.Then I should get sent to edit boxes because of wrong date succession(ro\sapientia\mesteri2015\SCRUMWrongDatesSuccessionCheck.feature:8)
+</failure>
+  </testcase>
+  <testcase classname="Scenario: Give wrong succession of dates" name="Scenario: Give wrong succession of dates" time="0">
+    <failure message="expected:&lt;null&gt; but was:&lt;http://localhost:8080/story/add&gt;" type="java.lang.AssertionError">java.lang.AssertionError: expected:&lt;null&gt; but was:&lt;http://localhost:8080/story/add&gt;
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:743)
+	at org.junit.Assert.assertEquals(Assert.java:118)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at ro.sapientia.mesteri2015.test.SCRUMWrongDatesSuccessionCheckDefinition.I_should_get_sent_to_edit_boxes_because_of_wrong_date_succession(SCRUMWrongDatesSuccessionCheckDefinition.java:72)
+	at ✽.Then I should get sent to edit boxes because of wrong date succession(ro\sapientia\mesteri2015\SCRUMWrongDatesSuccessionCheck.feature:8)
+</failure>
+  </testcase>
 </testsuite>

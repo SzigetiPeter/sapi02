@@ -1,4 +1,160 @@
 -------------------------------------------------------------------------------
 Test set: ro.sapientia.mesteri2015.SCRUMTitleTest
 -------------------------------------------------------------------------------
-Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 78.047 sec
+Tests run: 30, Failures: 4, Errors: 4, Skipped: 1, Time elapsed: 368.13 sec <<< FAILURE!
+Then I should see the updated story list(Scenario: Delete story)  Time elapsed: 0.016 sec  <<< ERROR!
+org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"id","selector":"story-1"}
+Command duration or timeout: 5.08 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'Szippy-PC', ip: '192.168.1.102', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_45'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=38.0.1, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 09051e26-36c1-48c1-8436-eed25278f195
+*** Element info: {Using=id, value=story-1}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:393)
+	at org.openqa.selenium.By$ById.findElement(By.java:214)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+	at ro.sapientia.mesteri2015.test.SCRUMDeleteCheckerDefinition.I_should_see_the_updated_story_list(SCRUMDeleteCheckerDefinition.java:53)
+	at ?.Then I should see the updated story list(ro\sapientia\mesteri2015\SCRUMDeleteChecker.feature:7)
+Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"id","selector":"story-1"}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'Szippy-PC', ip: '192.168.1.102', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_45'
+Driver info: driver.version: unknown
+	at <anonymous class>.FirefoxDriver.prototype.findElementInternal_(file:///C:/Users/SzigetiP/AppData/Local/Temp/anonymous7416988013936859883webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10271)
+	at <anonymous class>.fxdriver.Timer.prototype.setTimeout/<.notify(file:///C:/Users/SzigetiP/AppData/Local/Temp/anonymous7416988013936859883webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:603)
+
+Scenario: Delete story  Time elapsed: 0.016 sec  <<< ERROR!
+org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"id","selector":"story-1"}
+Command duration or timeout: 5.08 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'Szippy-PC', ip: '192.168.1.102', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_45'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=38.0.1, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 09051e26-36c1-48c1-8436-eed25278f195
+*** Element info: {Using=id, value=story-1}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:393)
+	at org.openqa.selenium.By$ById.findElement(By.java:214)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+	at ro.sapientia.mesteri2015.test.SCRUMDeleteCheckerDefinition.I_should_see_the_updated_story_list(SCRUMDeleteCheckerDefinition.java:53)
+	at ?.Then I should see the updated story list(ro\sapientia\mesteri2015\SCRUMDeleteChecker.feature:7)
+Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"id","selector":"story-1"}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'Szippy-PC', ip: '192.168.1.102', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_45'
+Driver info: driver.version: unknown
+	at <anonymous class>.FirefoxDriver.prototype.findElementInternal_(file:///C:/Users/SzigetiP/AppData/Local/Temp/anonymous7416988013936859883webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10271)
+	at <anonymous class>.fxdriver.Timer.prototype.setTimeout/<.notify(file:///C:/Users/SzigetiP/AppData/Local/Temp/anonymous7416988013936859883webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:603)
+
+When I enter "updatefirstnew" in  the title textbox and I push the update button(Scenario: UpdateFirst)  Time elapsed: 0 sec  <<< ERROR!
+org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"id","selector":"story-1"}
+Command duration or timeout: 5.09 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'Szippy-PC', ip: '192.168.1.102', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_45'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=38.0.1, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 73b517d9-a670-43bf-8c38-c3051cb17d61
+*** Element info: {Using=id, value=story-1}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:393)
+	at org.openqa.selenium.By$ById.findElement(By.java:214)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+	at ro.sapientia.mesteri2015.test.SCRUMSprintUpdateStepDefinition.I_enter_in_the_title_textbox_and_I_push_the_update_button(SCRUMSprintUpdateStepDefinition.java:37)
+	at ?.When I enter "updatefirstnew" in  the title textbox and I push the update button(ro\sapientia\mesteri2015\SCRUMSprintUpdate.feature:6)
+Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"id","selector":"story-1"}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'Szippy-PC', ip: '192.168.1.102', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_45'
+Driver info: driver.version: unknown
+	at <anonymous class>.FirefoxDriver.prototype.findElementInternal_(file:///C:/Users/SzigetiP/AppData/Local/Temp/anonymous74788416613247422webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10271)
+	at <anonymous class>.fxdriver.Timer.prototype.setTimeout/<.notify(file:///C:/Users/SzigetiP/AppData/Local/Temp/anonymous74788416613247422webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:603)
+
+Scenario: UpdateFirst  Time elapsed: 0 sec  <<< ERROR!
+org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"id","selector":"story-1"}
+Command duration or timeout: 5.09 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'Szippy-PC', ip: '192.168.1.102', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_45'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=38.0.1, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 73b517d9-a670-43bf-8c38-c3051cb17d61
+*** Element info: {Using=id, value=story-1}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:393)
+	at org.openqa.selenium.By$ById.findElement(By.java:214)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+	at ro.sapientia.mesteri2015.test.SCRUMSprintUpdateStepDefinition.I_enter_in_the_title_textbox_and_I_push_the_update_button(SCRUMSprintUpdateStepDefinition.java:37)
+	at ?.When I enter "updatefirstnew" in  the title textbox and I push the update button(ro\sapientia\mesteri2015\SCRUMSprintUpdate.feature:6)
+Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"id","selector":"story-1"}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'Szippy-PC', ip: '192.168.1.102', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_45'
+Driver info: driver.version: unknown
+	at <anonymous class>.FirefoxDriver.prototype.findElementInternal_(file:///C:/Users/SzigetiP/AppData/Local/Temp/anonymous74788416613247422webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10271)
+	at <anonymous class>.fxdriver.Timer.prototype.setTimeout/<.notify(file:///C:/Users/SzigetiP/AppData/Local/Temp/anonymous74788416613247422webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:603)
+
+Then I should get result "title1" in stories list(Scenario: Title1)  Time elapsed: 0 sec  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<[]> but was:<[title1]>
+	at org.junit.Assert.assertEquals(Assert.java:115)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at ro.sapientia.mesteri2015.test.SCRUMTitleStepDefinition.I_should_get_result_in_stories_list(SCRUMTitleStepDefinition.java:56)
+	at ?.Then I should get result "title1" in stories list(ro\sapientia\mesteri2015\SCRUMTitle.feature:7)
+
+Scenario: Title1  Time elapsed: 0 sec  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<[]> but was:<[title1]>
+	at org.junit.Assert.assertEquals(Assert.java:115)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at ro.sapientia.mesteri2015.test.SCRUMTitleStepDefinition.I_should_get_result_in_stories_list(SCRUMTitleStepDefinition.java:56)
+	at ?.Then I should get result "title1" in stories list(ro\sapientia\mesteri2015\SCRUMTitle.feature:7)
+
+Then I should get sent to edit boxes because of wrong date succession(Scenario: Give wrong succession of dates)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<null> but was:<http://localhost:8080/story/add>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:743)
+	at org.junit.Assert.assertEquals(Assert.java:118)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at ro.sapientia.mesteri2015.test.SCRUMWrongDatesSuccessionCheckDefinition.I_should_get_sent_to_edit_boxes_because_of_wrong_date_succession(SCRUMWrongDatesSuccessionCheckDefinition.java:72)
+	at ?.Then I should get sent to edit boxes because of wrong date succession(ro\sapientia\mesteri2015\SCRUMWrongDatesSuccessionCheck.feature:8)
+
+Scenario: Give wrong succession of dates  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<null> but was:<http://localhost:8080/story/add>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:743)
+	at org.junit.Assert.assertEquals(Assert.java:118)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at ro.sapientia.mesteri2015.test.SCRUMWrongDatesSuccessionCheckDefinition.I_should_get_sent_to_edit_boxes_because_of_wrong_date_succession(SCRUMWrongDatesSuccessionCheckDefinition.java:72)
+	at ?.Then I should get sent to edit boxes because of wrong date succession(ro\sapientia\mesteri2015\SCRUMWrongDatesSuccessionCheck.feature:8)
+
